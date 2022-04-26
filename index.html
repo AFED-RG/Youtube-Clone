@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Youtube Clone Jutsu</title>
+</head>
+<body>
+   
+    <header>
+        <div class="nav-left">
+            <a href="" class="sidebar-menu-btn"><i class="fa-solid fa-bars"></i></a>
+            <a href="#"><img src="assets/img/youtube_logo_img.png" class="yt-logo" alt="youtube_logo_img"></a>
+        </div>
+        <form action="" class="search-bar">
+            <input type="text" placeholder="Search" class="search-input">
+            <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button id="mic-btn"><i class="fa-solid fa-microphone"></i></button>
+        </form>
+        <div class="menu-icons">
+            <a href="#"><i class="fa-solid fa-border-all"></i></a>
+            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+            <a href="#" class="sign_in_btn"><i class="fa-solid fa-user"></i> SIGN IN</a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div class="sidebar-menu" id="sidebar-menu">   
+            <ul class="sidebar-menu-list">
+                <a href="#" class="sidebar-menu-link-item active"><i class="fa-solid fa-home"></i>&emsp;Home</a>
+                <a href="#" class="sidebar-menu-link-item"><i class="fa-solid fa-compass"></i>&emsp;Explore</a>
+                <a href="#" class="sidebar-menu-link-item"><i class="fa-solid fa-play"></i>&emsp;Shorts</a>
+                <a href="#" class="sidebar-menu-link-item"><i class="fa-brands fa-youtube"></i>&emsp;Subscriptions</a>
+                
+                <a href="#" class="sidebar-menu-link-item"><i class="fa-solid fa-bookmark"></i>&emsp;Library</a>
+                <a href="#" class="sidebar-menu-link-item"><i class="fa-solid fa-clock-rotate-left"></i>&emsp;History</a>
+            </ul>
+            <ul class="best-of-yt-list">
+                <h1 class="best-of-yt-title">BEST OF YOUTUBE</h1>
+                <a href="" class="best-of-yt-link-item"><i class="fa-solid fa-music"></i> Music</a>
+                <a href="" class="best-of-yt-link-item"><i class="fa-solid fa-baseball"></i> Sports</a>
+                <a href="" class="best-of-yt-link-item"><i class="fa-solid fa-gamepad"></i> Gaming</a>
+                <a href="" class="best-of-yt-link-item"><i class="fa-solid fa-film"></i> Movies</a>
+                <a href="" class="best-of-yt-link-item"><i class="fa-solid fa-newspaper"></i> News</a>
+                <a href="" class="best-of-yt-link-item"><i class="fa-solid fa-star-of-life"></i> Live</a>
+                <a href="" class="best-of-yt-link-item"><i class="fa-solid fa-shirt"></i> Fashion & Beauty</a>
+                <a href="" class="best-of-yt-link-item"><i class="fa-solid fa-video"></i> 360 Video</a>
+            </ul>
+            <ul class="quick-links-list">
+                <a href="#" class="quick-link-item">About</a>
+                <a href="#" class="quick-link-item">Press</a>
+                <a href="#" class="quick-link-item">Copyright</a>
+                <a href="#" class="quick-link-item">Contact ust</a>
+                <a href="#" class="quick-link-item">Creatorst</a>
+                <a href="#" class="quick-link-item">Advertise</a>
+                <a href="#" class="quick-link-item">Developers</a>
+                <a href="#" class="quick-link-item">Terms</a>
+                <a href="#" class="quick-link-item">Policy & Safety</a>
+                <a href="#" class="quick-link-item">How Youtube works</a>
+                <a href="#" class="quick-link-item">Test new features</a>
+            </ul>
+        </div>
+
+        <div class="videos">
+            <div class="categories">
+                <section class="category-section">
+                    <button class="category active">All</button>
+                    <button class="category">December Avenue</button>
+                    <button class="category">Philippine Music</button>
+                    <button class="category">Music</button>
+                    <button class="category">Playlist</button>
+                    <button class="category">Movies</button>
+                    <button class="category">Sports</button>
+                    <button class="category">Anime Recommendations</button>
+                    <button class="category">One Piece</button>
+                    <button class="category">Live</button>
+                </section>
+            </div>
+
+            <section class="video-section">
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="5:44">
+                        <img class="thumbnail-img" src="assets/img/huling_sandali_thumbnail.jpg" alt="huling_sandali_thumbnail">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="#">
+                            <img class="channel-icon" src="assets/img/tower_of_doom_icon.jpg" alt="">
+                        </a>
+                        <div class="video-details">
+                            <a class="video-title">December Avenue - Huling Sandali (OFFICIAL MUSIC VIDEO)</a>
+                            <a class="video-channel-name">TowerofDOOM <i class="fa-solid fa-circle-check"></i></a>
+                            <div class="video-metadata">
+                                <span>28M views</span>
+                                •
+                                <span>2 years ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="4:31">
+                        <img class="thumbnail-img" src="assets/img/bulong_thumbnail.jpg" alt="bulong_thumbnail">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="#">
+                            <img class="channel-icon" src="assets/img/tower_of_doom_icon.jpg" alt="">
+                        </a>
+                        <div class="video-details">
+                            <a class="video-title">December Avenue - Bulong (OFFICIAL MUSIC VIDEO)</a>
+                            <a class="video-channel-name">TowerofDOOM <i class="fa-solid fa-circle-check"></i></a>
+                            <div class="video-metadata">
+                                <span>25M views</span>
+                                •
+                                <span>3 years ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="4:34">
+                        <img class="thumbnail-img" src="assets/img/sa_ngalan_ng_pagibig_thumbnail.jpg" alt="sa_ngalan_ng_pagibig_thumbnail">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="#">
+                            <img class="channel-icon" src="assets/img/tower_of_doom_icon.jpg" alt="">
+                        </a>
+                        <div class="video-details">
+                            <a class="video-title">December Avenue - Sa Ngalan Ng Pag-Ibig (OFFICIAL MUSIC VIDEO)</a>
+                            <a class="video-channel-name">TowerofDOOM <i class="fa-solid fa-circle-check"></i></a>
+                            <div class="video-metadata">
+                                <span>102M views</span>
+                                •
+                                <span>4 years ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="4:39">
+                        <img class="thumbnail-img" src="assets/img/kung_di_rin_lang_ikaw_thumbnail.jpg" alt="kung_di_rin_lang_ikaw_thumbnail">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="#">
+                            <img class="channel-icon" src="assets/img/tower_of_doom_icon.jpg" alt="">
+                        </a>
+                        <div class="video-details">
+                            <a class="video-title">December Avenue - Kung 'Di Rin Lang Ikaw (OFFICIAL MUSIC VIDEO)</a>
+                            <a class="video-channel-name">TowerofDOOM <i class="fa-solid fa-circle-check"></i></a>
+                            <div class="video-metadata">
+                                <span>154 views</span>
+                                •
+                                <span>3 years ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            
+
+            <section class="video-section">
+                    <h1 class="video-section-title">Trending</h1>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="5:12">
+                        <img class="thumbnail-img" src="assets/img/eroplanong_papel.jpg" alt="eroplanong_papel.jpg">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="#">
+                            <img class="channel-icon" src="assets/img/tower_of_doom_icon.jpg" alt="">
+                        </a>
+                        <div class="video-details">
+                            <a class="video-title">December Avenue - Eroplanong Papel Lyric Video (Official)</a>
+                            <a class="video-channel-name">TowerofDOOM <i class="fa-solid fa-circle-check"></i></a>
+                            <div class="video-metadata">
+                                <span>44M views</span>
+                                •
+                                <span>6 years ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="5:27">
+                        <img class="thumbnail-img" src="assets/img/sleep_tonight_thumbnail.jpg" alt="sleep_tonight_thumbnail">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="#">
+                            <img class="channel-icon" src="assets/img/tower_of_doom_icon.jpg" alt="">
+                        </a>
+                        <div class="video-details">
+                            <a class="video-title">Tower Session | December Avenue - Sleep Tonight S02E06</a>
+                            <a class="video-channel-name">TowerofDOOM <i class="fa-solid fa-circle-check"></i></a>
+                            <div class="video-metadata">
+                                <span>8.6M views</span>
+                                •
+                                <span>9 years ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="2:56">
+                        <img class="thumbnail-img" src="assets/img/dive_thumbnail.jpg" alt="dive_thumbnail">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="#">
+                            <img class="channel-icon" src="assets/img/tower_of_doom_icon.jpg" alt="">
+                        </a>
+                        <div class="video-details">
+                            <a class="video-title">December Avenue - Dive</a>
+                            <a class="video-channel-name">Tower of Doom Music</a>
+                            <div class="video-metadata">
+                                <span>69k views</span>
+                                •
+                                <span>5 years ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="4:32">
+                        <img class="thumbnail-img" src="assets/img/ill_be_watching_you_thumbnail.jpg" alt="ill_be_watching_you_thumbnail">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="#">
+                            <img class="channel-icon" src="assets/img/ill_be_watching_you_thumbnail.jpg" alt="">
+                        </a>
+                        <div class="video-details">
+                            <a class="video-title">December Avenue - I'll Be Watching You</a>
+                            <a class="video-channel-name">Tower of Doom Music</a>
+                            <div class="video-metadata">
+                                <span>539K views</span>
+                                •
+                                <span>5 years ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
